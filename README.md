@@ -1,6 +1,6 @@
 # Heart Disease Prediction API  (MLOps)
 
-## 📖 Descripción
+## Descripción
 API para predecir riesgo de enfermedad cardíaca usando un modelo de **Logistic Regression**.  
 Este proyecto sigue buenas prácticas de **MLOps**, incluyendo:
 - Entrenamiento reproducible en notebooks.
