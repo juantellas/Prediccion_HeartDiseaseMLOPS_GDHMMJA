@@ -1,0 +1,26 @@
+version: 1
+
+project:
+  id: 8acf0dba-57e1-4564-b3db-26d0b37ac714
+  title: "Heart Disease Prediction API"
+  description: "Análisis de datos y modelado para predecir enfermedades del corazon (Heart Disease)."
+  keywords: ["Corazon", "Medicina", "Machine Learning", "Predicción"]
+  authors:
+    - name: "Juan Aguirre"
+    - name: "Mariangel Mercado"
+    - name: "Guirlessa de la Hoz"
+  github: "https://github.com/juantellas"
+  # Para autogenerar un TOC automáticamente:
+  # run "jupyter-book init --write-toc"
+
+toc:
+- file: notebooks/index
+  children:
+  - file: notebooks/1_model_leakage_demo  
+  - file: notebooks/2_model_pipeline_cv
+
+site:
+  template: book-theme
+  options:
+    favicon: "icon.jpeg"   # si tienes un favicon
+    logo: "logo.png"    # si quieres un logo en el libro
